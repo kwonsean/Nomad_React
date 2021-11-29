@@ -18,7 +18,8 @@
     function Container() {
       const [counter, setCounter] = React.useState(0)
       function onclick() {
-        setCounter(counter + 1)
+        // setCounter(counter + 1)
+        setCounter((current) => current + 1)
       }
       return (
         <div>
