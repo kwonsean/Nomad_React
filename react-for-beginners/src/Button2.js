@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styles from './Button.module.css'
 
 function Button2({ text }) {
-  console.log(styles)
+  // console.log(styles)
   return <button className={styles.btn}>{text}</button>
 }
 
