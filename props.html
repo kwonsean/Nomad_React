@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div id="root"></div>
+  </body>
+  <script
+    crossorigin
+    src="https://unpkg.com/react@17/umd/react.development.js"
+  ></script>
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.7.2/prop-types.min.js"
+    integrity="sha512-ssNhh7jlzc+K93ckIlSXFHHz6fSFv0l619WOv8xbFNRbFOujbasb42LVMOggDrQR1ScJncoWb+KAJx1uF3ipjw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    const root = document.querySelector('#root')
+    function Btn({ text, fontSize = 14, changeValue }) {
+      console.log(text, 'was rendered')
+      return (
+        <button
+          onClick={changeValue}
+          style={{
+            backgroundColor: 'tomato',
+            color: 'white',
+            padding: '10px 20px',
+            border: 0,
+            borderRadius: 10,
+            fontSize,
+          }}
+        >
+          {text}
+        </button>
+      )
+    }
+    const MemorizedBtn = React.memo(Btn)
+
+    MemorizedBtn.propTypes = {
+      text: PropTypes.string.isRequired,
+      fontSize: PropTypes.number,
+      changeValue: PropTypes.func,
+    }
+
+    function App() {
+      const [value, setValue] = React.useState('Save Changes')
+      const changeValue = () => setValue('Revert Changes')
+      return (
+        <div>
+          <MemorizedBtn text={value} fontSize={18} changeValue={changeValue} />
+          <MemorizedBtn text='Continue' />
+        </div>
+      )
+    }
+    ReactDOM.render(<App />, root)
+  </script>
+</html>
