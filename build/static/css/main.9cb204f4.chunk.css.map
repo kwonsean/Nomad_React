@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Button.module.css","webpack://src/App.module.css"],"names":[],"mappings":"AAAA,mBACE,UAAY,CACZ,uBACF,CCHA,kBACE,cACF","file":"main.9cb204f4.chunk.css","sourcesContent":[".btn {\r\n  color: white;\r\n  background-color: tomato;\r\n}\r\n",".title {\r\n  font-size: 28px;\r\n}\r\n"]}
