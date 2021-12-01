@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cb204f4.chunk.css",
-    "main.js": "/static/js/main.64ecc5c4.chunk.js",
-    "main.js.map": "/static/js/main.64ecc5c4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.70f50f0b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.70f50f0b.js.map",
-    "static/js/2.2c778afe.chunk.js": "/static/js/2.2c778afe.chunk.js",
-    "static/js/2.2c778afe.chunk.js.map": "/static/js/2.2c778afe.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9cb204f4.chunk.css.map": "/static/css/main.9cb204f4.chunk.css.map",
-    "static/js/2.2c778afe.chunk.js.LICENSE.txt": "/static/js/2.2c778afe.chunk.js.LICENSE.txt"
+    "main.css": "/Nomad_React/tree/test/static/css/main.9cb204f4.chunk.css",
+    "main.js": "/Nomad_React/tree/test/static/js/main.64ecc5c4.chunk.js",
+    "main.js.map": "/Nomad_React/tree/test/static/js/main.64ecc5c4.chunk.js.map",
+    "runtime-main.js": "/Nomad_React/tree/test/static/js/runtime-main.617e69b8.js",
+    "runtime-main.js.map": "/Nomad_React/tree/test/static/js/runtime-main.617e69b8.js.map",
+    "static/js/2.7579457e.chunk.js": "/Nomad_React/tree/test/static/js/2.7579457e.chunk.js",
+    "static/js/2.7579457e.chunk.js.map": "/Nomad_React/tree/test/static/js/2.7579457e.chunk.js.map",
+    "index.html": "/Nomad_React/tree/test/index.html",
+    "static/css/main.9cb204f4.chunk.css.map": "/Nomad_React/tree/test/static/css/main.9cb204f4.chunk.css.map",
+    "static/js/2.7579457e.chunk.js.LICENSE.txt": "/Nomad_React/tree/test/static/js/2.7579457e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70f50f0b.js",
-    "static/js/2.2c778afe.chunk.js",
+    "static/js/runtime-main.617e69b8.js",
+    "static/js/2.7579457e.chunk.js",
     "static/css/main.9cb204f4.chunk.css",
     "static/js/main.64ecc5c4.chunk.js"
   ]
